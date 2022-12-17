@@ -8,6 +8,13 @@
     }
   },
   "customizations": {
+    "codespaces": {
+      "repositories": {
+        "adamelliotfields/dotfiles": {
+          "permissions": "write-all"
+        }
+      }
+    },
     "vscode": {
       "extensions": [
         "formulahendry.auto-rename-tag",
@@ -23,7 +30,14 @@
         "wayou.vscode-todo-highlight",
         "vscode-icons-team.vscode-icons",
         "redhat.vscode-yaml"
-      ]
+      ],
+      "settings": {
+        "npm-intellisense.importLinebreak": ";\n",
+        "npm-intellisense.showBuildInLibs": true,
+        "redhat.telemetry.enabled": false,
+        "workbench.colorTheme": "GitHub Dark Default",
+        "workbench.iconTheme": "vscode-icons"
+      }
     }
   },
   "forwardPorts": [
