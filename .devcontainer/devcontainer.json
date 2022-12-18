@@ -3,6 +3,7 @@
   "features": {
     "ghcr.io/devcontainers/features/github-cli:1": {},
     "ghcr.io/devcontainers/features/sshd:1": {},
+    "ghcr.io/devcontainers/features/go:1": {},
     "ghcr.io/devcontainers/features/node:1": {
       "nodeGypDependencies": false
     }
@@ -24,6 +25,7 @@
         "github.vscode-pull-request-github",
         "github.github-vscode-theme",
         "github.remotehub",
+        "golang.go",
         "christian-kohler.npm-intellisense",
         "christian-kohler.path-intellisense",
         "redhat.vscode-commons",
