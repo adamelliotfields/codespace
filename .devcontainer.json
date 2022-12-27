@@ -18,28 +18,20 @@
     },
     "vscode": {
       "extensions": [
-        "formulahendry.auto-rename-tag",
-        "editorconfig.editorconfig",
-        "github.codespaces",
-        "github.copilot",
-        "github.vscode-pull-request-github",
-        "github.github-vscode-theme",
-        "github.remotehub",
-        "golang.go",
         "christian-kohler.npm-intellisense",
         "christian-kohler.path-intellisense",
+        "editorconfig.editorconfig",
+        "formulahendry.auto-rename-tag",
+        "github.codespaces",
+        "github.copilot",
+        "github.github-vscode-theme",
+        "github.vscode-pull-request-github",
+        "golang.go",
         "redhat.vscode-commons",
-        "wayou.vscode-todo-highlight",
+        "redhat.vscode-yaml",
         "vscode-icons-team.vscode-icons",
-        "redhat.vscode-yaml"
-      ],
-      "settings": {
-        "npm-intellisense.importLinebreak": ";\n",
-        "npm-intellisense.showBuildInLibs": true,
-        "redhat.telemetry.enabled": false,
-        "workbench.colorTheme": "GitHub Dark Default",
-        "workbench.iconTheme": "vscode-icons"
-      }
+        "wayou.vscode-todo-highlight"
+      ]
     }
   },
   "forwardPorts": [
