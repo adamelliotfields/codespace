@@ -1,4 +1,6 @@
 *
-!/.devcontainer
+!/.vscode/
+!/.vscode/settings.json
+!/.devcontainer.json
 !/.gitignore
 !/README.md
