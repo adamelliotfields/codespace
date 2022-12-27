@@ -3,7 +3,6 @@
   "features": {
     "ghcr.io/devcontainers/features/github-cli:1": {},
     "ghcr.io/devcontainers/features/sshd:1": {},
-    "ghcr.io/devcontainers/features/go:1": {},
     "ghcr.io/devcontainers/features/node:1": {
       "nodeGypDependencies": false
     }
@@ -26,7 +25,6 @@
         "github.copilot",
         "github.github-vscode-theme",
         "github.vscode-pull-request-github",
-        "golang.go",
         "redhat.vscode-commons",
         "redhat.vscode-yaml",
         "vscode-icons-team.vscode-icons",
@@ -39,7 +37,7 @@
   ],
   "portsAttributes": {
     "3000": {
-      "label": "Default port for many web frameworks"
+      "label": "3000 (dev server)"
     }
   }
 }
