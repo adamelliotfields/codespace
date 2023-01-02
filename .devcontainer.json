@@ -1,43 +1,28 @@
 {
   "image": "mcr.microsoft.com/devcontainers/base:jammy",
   "features": {
-    "ghcr.io/devcontainers/features/github-cli:1": {},
-    "ghcr.io/devcontainers/features/sshd:1": {},
-    "ghcr.io/devcontainers/features/node:1": {
-      "nodeGypDependencies": false
-    }
+    // "ghcr.io/devcontainers/features/github-cli:1": {},
+    "ghcr.io/devcontainers/features/sshd:1": {}
+    // "ghcr.io/devcontainers/features/node:1": {
+    //   "nodeGypDependencies": false
+    // }
   },
   "customizations": {
-    "codespaces": {
-      "repositories": {
-        "adamelliotfields/dotfiles": {
-          "permissions": "write-all"
-        }
-      }
-    },
     "vscode": {
       "extensions": [
         "christian-kohler.npm-intellisense",
         "christian-kohler.path-intellisense",
         "editorconfig.editorconfig",
         "formulahendry.auto-rename-tag",
-        "github.codespaces",
         "github.copilot",
-        "github.github-vscode-theme",
         "github.vscode-pull-request-github",
         "redhat.vscode-commons",
         "redhat.vscode-yaml",
-        "vscode-icons-team.vscode-icons",
         "wayou.vscode-todo-highlight"
       ]
     }
   },
   "forwardPorts": [
     3000
-  ],
-  "portsAttributes": {
-    "3000": {
-      "label": "3000 (dev server)"
-    }
-  }
+  ]
 }
