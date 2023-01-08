@@ -1,29 +1,18 @@
 {
   "image": "mcr.microsoft.com/devcontainers/base:jammy",
   "features": {
-    // "ghcr.io/devcontainers/features/github-cli:1": {},
-    "ghcr.io/devcontainers-contrib/features/deno:1": {},
     "ghcr.io/devcontainers/features/sshd:1": {}
-    // "ghcr.io/devcontainers/features/node:1": {
-    //   "nodeGypDependencies": false
-    // }
   },
   "customizations": {
     "vscode": {
       "extensions": [
-        "christian-kohler.npm-intellisense",
-        "christian-kohler.path-intellisense",
-        "editorconfig.editorconfig",
-        "formulahendry.auto-rename-tag",
         "github.copilot",
-        "github.vscode-pull-request-github",
-        "redhat.vscode-commons",
-        "redhat.vscode-yaml",
-        "wayou.vscode-todo-highlight"
+        "github.copilot-labs"
       ]
     }
   },
   "forwardPorts": [
+    2222,
     3000
   ]
 }

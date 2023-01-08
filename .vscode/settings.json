@@ -1,9 +1,1 @@
-{
-  "npm-intellisense.importES6": true,
-  "npm-intellisense.importLinebreak": "\n",
-  "npm-intellisense.importQuotes": "'",
-  "npm-intellisense.showBuildInLibs": true,
-  "redhat.telemetry.enabled": false,
-  "workbench.colorTheme": "GitHub Dark Default",
-  "workbench.iconTheme": "vscode-icons"
-}
+{}
