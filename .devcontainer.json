@@ -1,10 +1,14 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/base:jammy",
+  "image": "mcr.microsoft.com/devcontainers/universal:2-focal",
   "features": {
+    // "ghcr.io/devcontainers/features/desktop-lite:1": { "password": "password" },
+    // "ghcr.io/devcontainers/features/docker-in-docker:2": { "dockerDashComposeVersion": "v2" },
     // "ghcr.io/devcontainers/features/sshd:1": {}
   },
   "forwardPorts": [
     // 2222,
+    // 5901,
+    // 6080,
     3000
   ]
 }
