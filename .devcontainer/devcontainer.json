@@ -1,0 +1,33 @@
+{
+  // "image": "mcr.microsoft.com/devcontainers/universal:2-focal",
+  "build": { "dockerfile": "Dockerfile" },
+  "features": {
+    // "ghcr.io/devcontainers/features/desktop-lite:1": { "password": "password" },
+    // "ghcr.io/devcontainers/features/docker-in-docker:2": { "dockerDashComposeVersion": "v2", "moby": false },
+    // "ghcr.io/devcontainers/features/sshd:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      /* install these extensions automatically */
+      "extensions": [
+        "bierner.github-markdown-preview",
+        "editorconfig.editorconfig",
+        "esbenp.prettier-vscode",
+        "github.copilot", // includes chat
+        "vscode-icons-team.vscode-icons",
+        "wayou.vscode-todo-highlight"
+      ]
+    }
+  },
+  "forwardPorts": [
+    /* ssh */
+    // 2222,
+
+    /* desktop vnc and web */
+    // 5901,
+    // 6080,
+
+    /* jupyter lab */
+    // 8888
+  ]
+}
