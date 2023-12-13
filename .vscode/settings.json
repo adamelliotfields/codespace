@@ -1,1 +1,4 @@
-{}
+{
+  /* on by default */
+  "files.autoSave": "off"
+}

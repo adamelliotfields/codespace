@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "bierner.github-markdown-preview",
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+    "github.copilot",
+    "vscode-icons-team.vscode-icons",
+    "wayou.vscode-todo-highlight"
+  ]
+}
