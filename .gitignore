@@ -1,9 +1,7 @@
 *
 !/.devcontainer/
 !/.devcontainer/devcontainer.json
-!/.devcontainer/Dockerfile
 !/.vscode/
-!/.vscode/extensions.json
 !/.vscode/settings.json
 !/.gitignore
 !/README.md
